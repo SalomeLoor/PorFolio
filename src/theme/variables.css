@@ -1,0 +1,24 @@
+/* For information on how to create your own theme, please see:
+http://ionicframework.com/docs/theming/ */
+@import url('https://fonts.googleapis.com/css2?family=Sofia&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+.sofia-regular {
+  font-family: "Sofia", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.source-code-pro {
+  font-family: "Source Code Pro", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+:root{
+    --color-Morado:#150224;
+    --color-Morado2:#CDC1FF;
+    --color-Rosa:#A64D79;
+    --color-Rosa2:#eabde671;
+    --color-Rosa3:#E4B1F0;
+
+}
+
+
