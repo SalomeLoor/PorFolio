@@ -66,7 +66,7 @@ export const WebSkill = [
   },
 ];
 
-export const designSkill=[
+export const designSkill = [
   {
     name: "Figma",
     level: "Beginner, I´m Learning",
@@ -76,32 +76,32 @@ export const designSkill=[
     name: "Canva",
     level: "Intermediate",
     imagen: canva,
-    }
-]
-
-export const eduaction=[
-  {
-    name:'Educational Unit Dr. Jose Viliulfo Cedeño Sanchez',
-    nevel: "Primary Education",
-    date:"May 2010 - January 2016",
-    degreeObtaied: "Primary Education",
-  },{
-    name:'Educational Unit 13 de Octubre',
-    nevel: "High School",
-    date:"May 2016 - January 2022",
-    degreeObtaied: "Bachelor of Science",
-    imagen:cole
-  },
-  {
-    name:'Polytechnic School of Agriculture of Manabi Manuel Felix López',
-    nevel: "University",
-    date:"Octuber 2022 - Present",
-    degreeObtaied: "To Obtain",
-    imagen:uni
   }
 ]
 
-export const Language=[
+export const eduaction = [
+  {
+    name: 'Educational Unit Dr. Jose Viliulfo Cedeño Sanchez',
+    nevel: "Primary Education",
+    date: "May 2010 - January 2016",
+    degreeObtaied: "Primary Education",
+  }, {
+    name: 'Educational Unit 13 de Octubre',
+    nevel: "High School",
+    date: "May 2016 - January 2022",
+    degreeObtaied: "Bachelor of Science",
+    imagen: cole
+  },
+  {
+    name: 'Polytechnic School of Agriculture of Manabi Manuel Felix López',
+    nevel: "University",
+    date: "Octuber 2022 - Present",
+    degreeObtaied: "To Obtain",
+    imagen: uni
+  }
+]
+
+export const Language = [
   {
     name: "Spanish",
     level: "Native",
@@ -113,16 +113,32 @@ export const Language=[
 ]
 
 
-export const proyects=[
+export const proyects = [
   {
-    Image:"j",
-    name:"My First Portfolio",
-    description:"My First Web",
-    tecnologies:{
-      front: html, css, js,
-      backend:"None",
-      hosting: "Netfily"
-    },
-    url:"https://salomeloor.netlify.app/home"
+    image: "j",
+    name: "My First Portfolio",
+    description: "My First Web and also my First web Personal",
+    tecnologies: [
+       html,
+        css,
+         js,
+    ],
+    backend: "None",
+    hosting: "Netfily",
+    url: "https://salomeloor.netlify.app/home"
+  },
+  {
+    image: "j",
+    name: "Film Blog",
+    description: "Here you can find important information about your favorite movies and the ones that are trending.",
+    tecnologies:[
+      html, 
+      css, 
+      js, 
+      favicon
+    ],
+    backend:"Api TMDB",
+    hosting:"Netlily",
+    url:"https://filmblogapp.netlify.app/home"
   }
 ]
